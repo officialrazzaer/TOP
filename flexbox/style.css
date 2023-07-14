@@ -1,0 +1,30 @@
+.flex-container {
+    border: 5px solid #ffcc5c;
+    display:flex;
+}
+
+/* this sector selects a;; divs inside of .flex-container*/
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    align-items: center;
+    flex-grow:1;
+}
+
+.flex-container p {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+    text-align: center;
+}
+
+.flex-container div:nth-child(n):hover {
+    background-color: bisque;
+}
+
+.home {
+    flex-basis:300px;
+    flex-shrink: 0;
+}
+  
